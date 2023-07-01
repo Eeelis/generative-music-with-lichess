@@ -3,7 +3,7 @@ This program utilizes real-time data from chess games played on lichess.org to c
 
 How to run:
 
-1. Get an access token to lichess API at lichess.org/account/oauth/token
+1. Get an access token to lichess' API at lichess.org/account/oauth/token
 2. Paste your token in main.py
 3. Make sure the Sounds folder is in the same directory as SoundGenerator.pd
 5. Run SoundGenerator.pd
