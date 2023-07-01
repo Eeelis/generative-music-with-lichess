@@ -1,6 +1,7 @@
 import berserk, requests, json, webbrowser, socket
 
 number_of_games = 0
+token = YOUR-TOKEN-GOES-HERE
 
 # Send PD a 1 for each occupied square and a 0 for each unoccupied square:
 def Initialize():
@@ -24,13 +25,13 @@ port = 9001
 s.connect(host, port)
 print("Ready to send data via port " + str(port) + "\nPress enter to continue")
 headers={
-'Authorization': YOUR-TOKEN-GOES-HERE,
+'Authorization': f'Bearer ' + token,
 "Accept": "application/x-ndjson"
 }
 
 # Create session as described at https://berserk.readthedocs.io/en/master/readme.html
 
-token = 'lip_ITJYl7XvpAFHymgLHaH2'
+
 session = berserk.TokenSession(token)
 client = berserk.Client(session=session)
 
