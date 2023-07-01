@@ -24,7 +24,7 @@ port = 9001
 s.connect(host, port)
 print("Ready to send data via port " + str(port) + "\nPress enter to continue")
 headers={
-'Authorization': f'Bearer lip_ITJYl7XvpAFHymgLHaH2',
+'Authorization': YOUR-TOKEN-GOES-HERE,
 "Accept": "application/x-ndjson"
 }
 
