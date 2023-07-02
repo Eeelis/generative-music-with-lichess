@@ -11,4 +11,4 @@ How to run:
 
 <br>
 
-<img src="https://github.com/Eeelis/generative-music-with-lichess/blob/main/Images/Indexing.png">
+<img src="https://github.com/Eeelis/generative-music-with-lichess/blob/main/Images/SoundGenerator.png">
