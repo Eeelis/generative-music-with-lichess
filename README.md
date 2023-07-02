@@ -9,4 +9,8 @@ How to run:
 5. Run SoundGenerator.pd
 6. Run main.py
 
+<br>
+
+{% include googleDrivePlayer.html id=page.1TalLJHTOi_98YcHuK5DtR_4SxH1o5EET %}
+
 <img src="https://github.com/Eeelis/generative-music-with-lichess/blob/main/Images/SoundGenerator.png">
