@@ -9,4 +9,4 @@ How to run:
 5. Run SoundGenerator.pd
 6. Run main.py
 
-<img src="https://github.com/Eeelis/generative-music-with-lichess/blob/main/Images/SoundGenerator.png">
+<img src="https://github.com/Eeelis/generative-music-with-lichess/blob/main/Images/SoundGenerator.png" width=600>
