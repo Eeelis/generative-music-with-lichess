@@ -11,6 +11,6 @@ How to run:
 
 <br>
 
-{% include googleDrivePlayer.html id=page.1TalLJHTOi_98YcHuK5DtR_4SxH1o5EET %}
+{% include googleDrivePlayer.html id=page.1TalLJHTOi_98YcHuK5DtR_4SxH1o5EET/preview %}
 
 <img src="https://github.com/Eeelis/generative-music-with-lichess/blob/main/Images/SoundGenerator.png">
