@@ -17,6 +17,7 @@ How to run:
   
   <iframe src="https://drive.google.com/file/d/1TalLJHTOi_98YcHuK5DtR_4SxH1o5EET/view?usp=drive_link)" ></iframe>
   
+  <iframe allowfullscreen="allowfullscreen" src="your_page_url/preview" ></iframe>
 
 </body>
 </html>
