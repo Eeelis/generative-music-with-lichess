@@ -1,5 +1,5 @@
 # generative-music-with-lichess
-This program utilizes real-time data from chess games played on lichess.org to create a dynamically changing ambient piece. Built with Python and PureData. [Check out this video showcasing the program](https://www.youtube.com/watch?v=O_fYecJtEo4).
+This program utilizes real-time data from chess games played on lichess.org to create a dynamically changing ambient piece. Built with Python and PureData. A video showcasing the program is available [here](https://www.youtube.com/watch?v=O_fYecJtEo4).
 
 <br>
 
