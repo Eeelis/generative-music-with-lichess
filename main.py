@@ -34,10 +34,12 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = socket.gethostname()
 port = 9001
 s.connect(host, port)
+
 print("Ready to send data via port " + str(port) + "\nPress enter to continue")
+
 headers={
-'Authorization': f'Bearer ' + token,
-"Accept": "application/x-ndjson"
+    'Authorization': f'Bearer ' + token,
+    "Accept": "application/x-ndjson"
 }
 
 # Create session as described at https://berserk.readthedocs.io/en/master/readme.html
