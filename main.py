@@ -3,7 +3,7 @@ import berserk, requests, json, webbrowser, socket
 token = YOUR-TOKEN-GOES-HERE
 number_of_games = 0
 
-# Each square is assigned a value between 2 (a8, top left) and 65 (h1, bottom right), with 1 and 0 are reserved for initializing
+# Each square is assigned a value between 2 (a8, top left) and 65 (h1, bottom right), 1 and 0 are reserved for initializing
 board = {
     "a8": "2;",  "b8": "3;",  "c8": "4;",  "d8": "5;",  "e8": "6;",  "f8": "7;",  "g8": "8;",  "h8": "9;",
     "a7": "10;",  "b7": "11;", "c7": "12;", "d7": "13;", "e7": "14;", "f7": "15;", "g7": "16;", "h7": "17;",
@@ -34,8 +34,6 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = socket.gethostname()
 port = 9001
 s.connect(host, port)
-
-print("Ready to send data via port " + str(port) + "\nPress enter to continue")
 
 headers={
     'Authorization': f'Bearer ' + token,
